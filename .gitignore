@@ -1,0 +1,21 @@
+# -----------------------------------------
+# Ignorar todo dentro de db/, excepto db/.gitignore
+# -----------------------------------------
+db/*
+!db/.gitignore
+
+# Carpeta de compilación de Maven (si usas Maven)
+target/
+
+# Clases compiladas de Java
+*.class
+
+# Archivos y configuración de IntelliJ IDEA
+.idea/
+*.iml
+
+# Metadata del wrapper de Maven
+.mvn/
+
+# Archivos temporales de editores (por ejemplo, Vim)
+*.swp
